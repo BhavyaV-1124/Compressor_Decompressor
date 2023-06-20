@@ -72,7 +72,7 @@ public class AppFrame extends JFrame implements ActionListener {
                     Compressor.method(file);
                 }
                 catch(Exception ee){
-                    JOptionPane.showMessageDialog(null,e.toString());
+                    JOptionPane.showMessageDialog(null,ee.toString());
                 }
             }
         }
@@ -88,7 +88,7 @@ public class AppFrame extends JFrame implements ActionListener {
                     Decompressor.method(file);
                 }
                 catch(Exception ee){
-                    JOptionPane.showMessageDialog(null,e.toString());
+                    JOptionPane.showMessageDialog(null,ee.toString());
                 }
             }
         }
